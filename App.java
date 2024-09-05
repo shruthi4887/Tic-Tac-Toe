@@ -16,11 +16,11 @@ public class App {
     //   char symbol = scn.nextLine().charAt(0);
 
       Player p1 = new Player();
-      p1.setPlayerNameAndSymbol("Shruthi", 'X');
+      p1.setPlayerNameAndSymbol("A", 'X');
       p1.getPlayerNameAndSymbol();
 
       Player p2 = new Player();
-      p2.setPlayerNameAndSymbol("Hemitha", 'O');
+      p2.setPlayerNameAndSymbol("B", 'O');
       p2.getPlayerNameAndSymbol();
 
       Game game  = new Game(new Player[] {p1, p2}, b);
